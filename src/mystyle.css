@@ -1,0 +1,31 @@
+.name{
+    color: blue;
+    border-radius: 10px;
+}
+.email{
+    color: blue;
+    border-radius: 10px;
+}
+.password{
+    color: blue;
+    border-radius: 10px;
+}
+
+.form input[type="text"] {
+    border-radius: 10px; /* adjust the radius value */
+    padding: 10px;
+    
+    margin-top: 5px; /* add some padding for better look */
+    border: 3px solid #000; /* add a border */
+  }
+body{
+    background-color: gold;
+}
+.form{
+    top: 30%;
+   
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
