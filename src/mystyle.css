@@ -21,11 +21,13 @@
 body{
     background-color: gold;
 }
-.form{
-    top: 30%;
-   
+.register-form{
+    top: 30%; 
     position: absolute;
-    left: 0;
-    right: 0;
+    margin-left: 40%;
 
+}
+
+.register-user{
+    font-size: 8px;
 }
