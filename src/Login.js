@@ -24,8 +24,7 @@ class Login extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-
-        fetch('https://python-real-121.vercel.app/api/login/', {
+        fetch('https://python-ecommerce-theta.vercel.app/api/login/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
