@@ -24,7 +24,7 @@ class Register extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
 
-        fetch('https://python-real-121.vercel.app/api/register/', {
+        fetch('https://python-ecommerce-theta.vercel.app/api/register/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
