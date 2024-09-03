@@ -1,25 +1,52 @@
 .name{
     color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .email{
     color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .password{
     color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
+.register, .login{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.submit{
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 20px; 
+    border: 1px solid #0b24b3; 
+    margin-top: 10px;
+}
+.form input[type="text"]:focus {
+    color: #fff; /* change text color to white when focused */
+  }
+  .form input[type="text"]:not([value=""]) {
+    color: #fff; /* maintain white text color when not empty */
+  }
 .form input[type="text"] {
-    border-radius: 10px; /* adjust the radius value */
-    padding: 10px;
-    
-    margin-top: 5px; /* add some padding for better look */
-    border: 3px solid #000; /* add a border */
+    border-radius: 20px; /* adjust the radius value */
+    padding: 5px;
+    text-align: center;
+    background-color: transparent;
+    margin: 7px; /* add some padding for better look */
+    border: 1px solid #0b24b3; 
+  }
+  .form input[type="text"]::placeholder {
+    color: #fff; /* change the placeholder color to #ccc */
   }
 body{
-    background-color: gold;
+    background-image: url('./img/login.png');
+    /* background-color: gold; */
 }
 .register-form{
     top: 30%; 
@@ -29,5 +56,6 @@ body{
 }
 
 .register-user{
+    color: #fff;
     font-size: 8px;
 }
