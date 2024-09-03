@@ -45,7 +45,7 @@
     color: #fff; /* change the placeholder color to #ccc */
   }
 body{
-    background-image: url('/public/login.png');
+    /* background-image: url('/public/login.png'); */
     /* background-color: gold; */
 }
 .register-form{
