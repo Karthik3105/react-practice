@@ -55,23 +55,23 @@ class Register extends Component {
             <div class="register-form">
                 <form onSubmit={this.handleSubmit}>
                     <div class="form">
-                        <div>Register</div>
+                        <div class="register">Register</div>
                         <div class="name">
 
-                            <input type="text" name="name" value={this.state.formData.name} onChange={this.handleChange} placeholder="Enter your name">
+                            <input type="text" name="name" value={this.state.formData.name} onChange={this.handleChange} placeholder="Username">
                             </input>
                         </div>
                         <div class="email">
 
-                            <input type="text" name="email" value={this.state.formData.email} onChange={this.handleChange} placeholder="Enter your email">
+                            <input type="text" name="email" value={this.state.formData.email} onChange={this.handleChange} placeholder="Email">
                             </input>
                         </div>
                         <div class="password">
 
-                            <input type="text" name="password" value={this.state.formData.password} onChange={this.handleChange} placeholder="Enter your password">
+                            <input type="text" name="password" value={this.state.formData.password} onChange={this.handleChange} placeholder="Password">
                             </input>
                         </div>
-                        <button type="submit">Register</button>
+                        <button class="submit" type="submit">Register</button>
                     </div>
                 </form>
                 <ToastContainer
