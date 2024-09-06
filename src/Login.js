@@ -54,7 +54,7 @@ class Login extends Component {
             <div class="register-form">
                 <form onSubmit={this.handleSubmit}>
                     <div class="form">
-                        <div>Login</div>
+                        <div class="login">Login</div>
                         <div class="name">
 
                             <input type="text" name="name" value={this.state.formData.name} onChange={this.handleChange} placeholder="Enter your name">
@@ -70,10 +70,11 @@ class Login extends Component {
                             <input type="text" name="password" value={this.state.formData.password} onChange={this.handleChange} placeholder="Enter your password">
                             </input>
                         </div>
-                        <button type="submit">Login</button>
+                        <button class="submit" type="submit">Login</button>
                     </div>
                 </form>
                 <p class="register-user"> Already a user? If not, Please register    <Link to="/register"> Register</Link></p>
+                <p class="register-user"> Already a user? If not, Please register    <Link to="/dashboard"> DashBoard</Link></p>
                 <ToastContainer
                     position="top-center"
                     autoClose={5000}
