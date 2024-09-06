@@ -52,7 +52,9 @@ class Register extends Component {
     }
     render() {
         return (
+          
             <div class="register-form">
+                  <img src="https://res.cloudinary.com/dkfdnydny/image/upload/v1/media/image/watch_oztfwf" alt="My Image" />
                 <form onSubmit={this.handleSubmit}>
                     <div class="form">
                         <div class="register">Register</div>
