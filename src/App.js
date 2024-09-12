@@ -22,6 +22,16 @@ function App() {
             <Dashboard />
           </div>
         } />
+        <Route path="/dashboard/:id" element={
+          <div className="app">
+            <Header />
+            <Sidebar />
+            <main>
+              <Dropdown />
+            </main>
+            <Dashboard  />
+          </div>
+        } />
       </Routes>
     </Router>
   );

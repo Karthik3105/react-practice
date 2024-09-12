@@ -10,7 +10,22 @@
     color: blue;
     border-radius: 20px;
 }
+.image{
+    width: 100px;
+    height: 100px;
+}
+.list{
+   
+    background-color: #fff;
+}
+.dashboard{
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
 .header {
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: #333;
     color: #fff;
     padding: 20px;
