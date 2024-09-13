@@ -10,7 +10,7 @@ function Dashboard(props) {
     useEffect(() => {
        
 
-            fetch('https://python-ecommerce-theta.vercel.app/api/products/'+id)
+            fetch('https://python-ecommerce-theta.vercel.app/api/products/category/'+id)
             .then(response => response.json())
             .then(data => {
                 console.log('krthik12', data)
@@ -27,13 +27,13 @@ function Dashboard(props) {
 
     return(
   <div class="dashboard">
-     {/* {products.map((item) => ( */}
+     {products.map((item) => (
     <div class="list">
- <img class="image" src={products.product_image} alt="My Image" />
- <p>{products.product_name}</p>
- <p>{products.product_details}</p>
+ <img class="image" src={item.product_image} alt="My Image" />
+ <p class="prod_name">{item.product_name}</p>
+ <p class="prod_details">{item.product_details}</p>
  </div> 
- {/* ))} */}
+))}  
  
   </div>)
 }

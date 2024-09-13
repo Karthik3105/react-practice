@@ -13,10 +13,23 @@
 .image{
     width: 100px;
     height: 100px;
+    display: block;
+    margin: 0 auto;
+    ;
 }
 .list{
-   
+   padding: 10px;
     background-color: #fff;
+}
+.prod_name{
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+.prod_details{
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
 }
 .dashboard{
     margin-left: 250px;
