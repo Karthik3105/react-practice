@@ -6,6 +6,7 @@ import Header from './Header';
 import Sidebar from './SideBar';
 import Dashboard from './DashBoard';
 import Dropdown from './DropDown';
+import ProductDetailPage from './ProductDetailPage';
 function App() {
   return (
     <Router>
@@ -32,7 +33,17 @@ function App() {
             <Dashboard  />
           </div>
         } />
+        <Route path="/detail/:id" element={
+          <div className="app">
+            <Header />
+
+            <Sidebar />
+         
+            <ProductDetailPage  />
+          </div>
+        } />
       </Routes>
+      
     </Router>
   );
 }

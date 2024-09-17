@@ -10,6 +10,31 @@
     color: blue;
     border-radius: 20px;
 }
+.detail-prod{
+  display: flex;
+  flex-direction: row;
+}
+.description{
+  margin-left: 20px;
+}
+.product_name{
+  color: #ddd;
+  font-size: 24px;
+  font-weight: bold;
+}
+.product_description{
+  color: #ddd;
+  font-size: 12px;
+}
+.discounted_price{
+  color: #ddd;
+}
+.image_detail{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;  
+}
 .image{
     width: 100px;
     height: 100px;
@@ -35,6 +60,9 @@
     margin-left: 250px;
     display: grid;
     grid-template-columns: auto auto;
+}
+.detail{position: absolute;
+    margin-left: 250px;
 }
 .header {
     display: grid;
